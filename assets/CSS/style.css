@@ -11,25 +11,38 @@ header{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 20px;
+    position: relative;
+    top: 70px;
 }
 
 section{
     background-color: rgb(35, 39, 77);
     color: white;
-    padding: 14%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px; 
     box-shadow: 
     50px 30px 10px -10px rgba(0, 0, 0, 0.303);
+    position: relative;
+    top: 70px;
+    padding: 10%;
 }
 
 img{
-width: 110%;
+width: 50px;
 }
 
-.col{
-    color: rgb(0, 0, 255);
+#logo{
+    width: 100%;
+    
 }
 
 
+.animation_header:hover{
+    color: blueviolet;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
 
