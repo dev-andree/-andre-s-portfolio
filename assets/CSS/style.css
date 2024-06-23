@@ -1,13 +1,13 @@
 body {
-    background: linear-gradient(to top, rgb(0, 255, 247), rgb(0, 0, 0));
+    background: linear-gradient(to top, #01EEFE, rgb(0, 0, 0));
     background-size: 100% 150%;
     height: 100vh;
     margin: 0;
 }
 
 header{
-    color: white;
-    background-color: rgb(35, 39, 77);
+    color: rgb(255, 255, 255);
+    background-color: #20242D;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 20px;
@@ -15,8 +15,18 @@ header{
     top: 70px;
 }
 
+a{
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+}
+
+.animation_header:hover{
+    color: rgb(255, 255, 255);
+}
+
+
 section{
-    background-color: rgb(35, 39, 77);
+    background-color: #20242D;
     color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px; 
@@ -24,25 +34,26 @@ section{
     50px 30px 10px -10px rgba(0, 0, 0, 0.303);
     position: relative;
     top: 70px;
-    padding: 10%;
+    padding: 4%;
+}
+
+h1{
+    font-size: 20pt;
+}
+
+p{
+    font-size: 12pt;
 }
 
 img{
-width: 50px;
+    width: 70%;
+    position: relative;
+    left: 30%;
 }
 
-#logo{
-    width: 100%;
-    
+.links{
+    width: 50%;
+    background-color: #00b3c0;
+    border-radius: 10px;
+    padding: 5px;
 }
-
-
-.animation_header:hover{
-    color: blueviolet;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
