@@ -27,5 +27,4 @@ function getApiGitHub() {
         .catch(error => console.error('Erro:', error));
 }
 
-// Chame a função para carregar os repositórios
 getApiGitHub();
