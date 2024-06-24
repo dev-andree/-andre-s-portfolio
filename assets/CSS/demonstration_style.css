@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #20242D;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #20242D;
+    color: white;
+    box-shadow: 10px 10px 10px 10px #01edfe82;
+}
+
+a{
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.animation_header:hover{
+    color: rgb(255, 255, 255);
+}
+
+#CampoDeApresentacao {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 150px 0;
+}
+
+#botao, #cep, #limpaTela, #salvarLocalmente {
+    font-size: 1.25rem;
+    width: calc(50% - 40px);
+    max-width: 500px;
+    height: 70px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+#cep {
+    height: 66.1px;
+}
+
+#Enderecos {
+    background-color: #20242D;
+    color: white;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 1.25rem;
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    #botao, #cep, #limpaTela, #salvarLocalmente, #Enderecos {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 900px) {
+    #botao, #cep, #limpaTela, #salvarLocalmente, #Enderecos {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #botao, #cep, #limpaTela, #salvarLocalmente, #Enderecos {
+        max-width: 800px;
+    }
+}

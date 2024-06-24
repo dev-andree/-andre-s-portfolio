@@ -58,3 +58,8 @@ img{
     border-radius: 10px;
     padding: 5px;
 }
+
+span{
+    position: relative;
+    left: 20px;
+}
